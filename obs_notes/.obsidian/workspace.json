@@ -4,40 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6cd686b59676214b",
+        "id": "8cf385cd4050df8e",
         "type": "tabs",
         "children": [
           {
-            "id": "7b63a7f231dce005",
+            "id": "521ee520c97de878",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "specific choice of using square roots.md",
-                "mode": "source",
-                "source": true
-              }
-            },
-            "group": "9c262f3f304e7c35"
-          }
-        ]
-      },
-      {
-        "id": "5d62dd0ab05fcd19",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "788e25325a909de6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "specific choice of using square roots.md",
-                "mode": "preview",
-                "source": true
-              }
-            },
-            "group": "9c262f3f304e7c35"
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -105,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "specific choice of using square roots.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "specific choice of using square roots.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "specific choice of using square roots.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -166,16 +138,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "788e25325a909de6",
+  "active": "521ee520c97de878",
   "lastOpenFiles": [
+    "Expected Value Subscript Notation.md",
+    "3 Mathematics of Diffusion.md",
+    "4 Reverse Diffusion Mathematics.md",
+    "md notes.md",
+    "reparamaterisation trick.md",
+    "summing guassian variables.md",
+    "get any step from the first step.md",
+    "Untitled.md",
+    "specific choice of using square roots.md",
     "2. Intuition of diffusion models.md",
     "Gaussian transition probabilities.md",
     "3. Mathematics of Diffusion.md",
     "multivariate guassians.md",
     "drfty.png",
     "1. What is a diffusion process?.md",
-    "specific choice of using square roots.md",
-    "md notes.md",
     "REVERSED-TIME DIFFUSION PROCESS.md",
     "discretising.md",
     "drfty.webp",
