@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "8cf385cd4050df8e",
+        "id": "7de371aeca3b0f3c",
         "type": "tabs",
         "children": [
           {
-            "id": "521ee520c97de878",
+            "id": "22dfa1fb73ee06c7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "5 Loss.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "207a2982811ec6ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5 Loss.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "cbd061d3771aa468",
@@ -81,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5 Loss.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "5 Loss.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "5 Loss.md"
+              }
             }
           }
         ]
@@ -138,12 +160,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "521ee520c97de878",
+  "active": "207a2982811ec6ba",
   "lastOpenFiles": [
-    "Expected Value Subscript Notation.md",
     "3 Mathematics of Diffusion.md",
-    "4 Reverse Diffusion Mathematics.md",
+    "5 Loss.md",
+    "variational inference application.md",
     "md notes.md",
+    "4 Reverse Diffusion Mathematics.md",
+    "integrate out.md",
+    "KL divergence.md",
+    "2 Intuition of diffusion models.md",
+    "1 What is a diffusion process.md",
+    "Expected Value Subscript Notation.md",
     "reparamaterisation trick.md",
     "summing guassian variables.md",
     "get any step from the first step.md",
