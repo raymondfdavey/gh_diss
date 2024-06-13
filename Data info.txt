@@ -1,0 +1,93 @@
+FOR ME:
+
+IXI:
+
+MSLUB:
+- seg refers to consensus_gt files
+- t2 refers to T2W
+
+BRATS:
+- seg
+
+
+
+├── IXI
+│   ├── t2 
+│   │   ├── IXI1.nii.gz
+│   │   ├── IXI2.nii.gz
+│   │   └── ... 
+│   └── ...
+├── MSLUB
+│   ├── t2 
+│   │   ├── MSLUB1.nii.gz
+│   │   ├── MSLUB2.nii.gz
+│   │   └── ...
+│   ├── seg
+│   │   ├── MSLUB1_seg.nii.gz
+│   │   ├── MSLUB2_seg.nii.gz
+│   │   └── ...
+│   └── ...
+├── Brats21
+│   ├── t2 
+│   │   ├── Brats1.nii.gz
+│   │   ├── Brats2.nii.gz
+│   │   └── ...
+│   ├── seg
+│   │   ├── Brats1_seg.nii.gz
+│   │   ├── Brats2_seg.nii.gz
+│   │   └── ...
+│   └── ...
+└── ...
+
+
+PATCH DATA:
+
+We use the publicly available IXI data set as healthy reference distribution for training.
+
+The IXI data set consists of 560 pairs of T1 and T2-weighted brain MRI scans, acquired in three different hospital sites. 
+
+From the training data, we use 158 samples for testing and partition the remaining data set into 5 folds of 358 training samples and 44 validation samples for cross-validation and stratify the sampling by the age of the patients.
+
+For evaluation, we utilize two publicly available data sets, namely the Multimodal Brain Tumor Segmentation Challenge 2021 (BraTS21) data set (Baid et al., 2021; Bakas et al., 2017; Menze et al., 2014), and the multiple sclerosis data set from the University Hospital of Ljubljana (MSLUB) (Lesjak et al., 2018).
+
+The BraTS21 data set consists of 1251 brain MRI scans of four different weightings (T1, T1-CE, T2, FLAIR). We split the data set into an unhealthy validation set of 100 samples and an unhealthy test set of 1151 samples. 
+
+The MSLUB data set consists of brain MRI scans of 30 patients with multiple sclerosis (MS). For each patient T1, T2, and FLAIR-weighted scans are available. We split the data into an unhealthy validation set of 10 samples and an unhealthy test set of 20 samples. For both evaluation data sets, expert annotations in form of pixel-wise segmentation maps are available.
+
+Across our experiments, we utilize T2-weighted images from all data sets. 
+
+To align all MRI scans we register the brain scans to the SRI24-Atlas (Rohlfing et al., 2010) by affine transformations. 
+
+Next, we apply skull stripping with HD-BET (Isensee et al., 2019). Note that these steps are already applied to the BraTS21 data set by default. 
+
+Subsequently, we remove black borders, leading to a fixed resolution of [192 × 192 × 160] voxels. 
+
+Lastly, we perform a bias field correction. To save computational resources, we reduce the volume resolution by a factor of two resulting in [96×96×80] voxels and remove 15 top and bottom slices parallel to the transverse plane.
+
+MASKING DATA:
+
+For our experiments, we utilize the publicly available IXI dataset for training [1]. 
+The IXI dataset comprises 560 pairs of T1 and T2-weighted brain MRI scans. To ensure robust evaluation, the IXI dataset is partitioned into eight folds, comprising 400/160 training/validation samples. 
+
+To evaluate our approach, we employ two publicly available datasets: the  Multimodal Brain Tumor Segmentation Challenge 2021 (BraTS21) dataset [2] and the multiple sclerosis dataset from the University Hospital of Ljubljana Unsupervised Anomaly Detection in Medical Images Using Masked Diffusion Model 7 (MSLUB) [20]. 
+
+The BraTS21 dataset includes 1251 brain MRI scans with four different weightings (T1, T1-CE, T2, FLAIR).  Following [5], it was divided into a validation set of 100 samples and a test set of 1151 samples, both containing unhealthy scans. 
+
+The MSLUB dataset consists of brain MRI scans from 30 multiple sclerosis (MS) patients,  with each patient having T1, T2, and FLAIR-weighted scans. This dataset was split into a validation set of 10 samples and a test set of 20 samples as in [5], all representing unhealthy scans. 
+
+Thus, our training, validation, and testing data consist of 400, 270, and 1171 samples respectively. 
+
+In all our experimental setups, we exclusively employ T2-weighted images extracted  from the respective dataset and perform the pre-processing such as affine transformation, skull stripping,  and downsampling as in [5]. 
+
+With the specifically designed pre-processing techniques, we filtered out  the regions belonging to the foreground area so that Masking Block can only be applied to the foreground pixel patches.
+
+We assess the performance of our proposed method, mDDPM, in comparison to various established baselines for  UAD in brain MRI. These baselines include: (i) VAE [3], (ii) Sequential VAE (SVAE) [4], (iii) denoising AE (DAE) [18], the GAN-based (iv) f-AnoGAN [29], (v) DDPM [34], and (iv) patched DDPM (pDDPM), which feeds patched input to the DDPM. We evaluate all baseline methods via in-house training using their default parameters. For VAE, SVAE, and f-AnoGAN, we set the value of the hyperparameter according to [5]. For DDPM, pDDPM, and mDDPM, we employ structured simplex noise instead of Gaussian noise as it better captures the natural frequency distribution of MRI images [34]. We follow [5] for all other training and inference settings. By default, the models undergo training for 1600 epochs. During the training phase, the volumes are processed in a slice-wise fashion, where slices are uniformly sampled with replacement. However, during the testing phase, all slices are iterated over to reconstruct the entire volume. Further, we conducted all our experiments with a masking ratio randomly varying between 10%-90% of the whole foreground region.
+
+3.2 Inference Criteria
+During the training phase, all models are trained to minimize the l1 error between the healthy input image and its corresponding reconstruction. 
+
+At the test stage, we utilize the reconstruction error as a pixel-wise anomaly score denoted as ΛS = |z0 −z ′0|, where higher values correspond to larger reconstruction errors. To enhance the quality of the anomaly maps, we employ commonly used postprocessing techniques [3,35]. 
+
+Prior to binarizing ΛS, we apply a median filter with a kernel size of KM = 5 to smooth the anomaly scores and perform brain mask erosion for three iterations. After binarization and calculating threshold as in [5], we iteratively calculate DICE scores [10] for different thresholds and select the threshold that yields the highest average DICE score on the selected test set. 
+
+Additionally, we record the average Area Under the Precision-Recall Curve (AUPRC) [9] on the test set.
