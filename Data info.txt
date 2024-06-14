@@ -76,6 +76,7 @@ Evaluation data:
 BraTS21 data set: 1251 brain MRI scans (T1, T1-CE, T2, FLAIR) from patients with brain tumors.
 Unhealthy validation set: 100 samples
 Unhealthy test set: 1151 samples
+
 MSLUB data set: Brain MRI scans (T1, T2, FLAIR) from 30 patients with multiple sclerosis.
 Unhealthy validation set: 10 samples
 Unhealthy test set: 20 samples
