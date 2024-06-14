@@ -39,6 +39,7 @@ BRATS:
 │   └── ...
 └── ...
 
+------------------------------------------------------------------------------------------------------------------------------------------------
 
 PATCH DATA:
 
@@ -64,6 +65,33 @@ Subsequently, we remove black borders, leading to a fixed resolution of [192 × 
 
 Lastly, we perform a bias field correction. To save computational resources, we reduce the volume resolution by a factor of two resulting in [96×96×80] voxels and remove 15 top and bottom slices parallel to the transverse plane.
 
+FROM CLAUDE:
+Data used for training, validation, and testing of the diffusion model for brain MRI scans:
+Training data:
+IXI data set: 560 pairs of T1 and T2-weighted brain MRI scans from healthy subjects.
+158 samples used for testing.
+Remaining data partitioned into 5 folds for cross-validation: 358 training samples and 44 validation samples per fold, stratified by patient age.
+Evaluation data:
+
+BraTS21 data set: 1251 brain MRI scans (T1, T1-CE, T2, FLAIR) from patients with brain tumors.
+Unhealthy validation set: 100 samples
+Unhealthy test set: 1151 samples
+MSLUB data set: Brain MRI scans (T1, T2, FLAIR) from 30 patients with multiple sclerosis.
+Unhealthy validation set: 10 samples
+Unhealthy test set: 20 samples
+
+Both evaluation data sets have expert-annotated pixel-wise segmentation maps.
+Data preprocessing:
+T2-weighted images used from all data sets.
+MRI scans registered to SRI24-Atlas using affine transformations.
+Skull stripping applied using HD-BET (already done for BraTS21 data set).
+Black borders removed, resulting in a fixed resolution of [192 × 192 × 160] voxels.
+Bias field correction performed.
+Volume resolution reduced by a factor of two to [96 × 96 × 80] voxels.
+15 top and bottom slices parallel to the transverse plane removed.
+Note: Although the BraTS21 and MSLUB data sets contain various types of MRI scans (T1, T1-CE, T2, FLAIR), only T2-weighted scans were used in the experiments.
+
+------------------------------------------------------------------------------------------------------------------------------------------------
 MASKING DATA:
 
 For our experiments, we utilize the publicly available IXI dataset for training [1]. 
