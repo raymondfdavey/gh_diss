@@ -4,47 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2eb609c9f590bd16",
+        "id": "00304b8d0d9ba019",
         "type": "tabs",
         "children": [
           {
-            "id": "17e3ea4c2088ff56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1_Implimenting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4505131fb442d5af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Preprocessing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "598d51a9aa1eaa61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Preprocessing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ceb60d70e5a8f39c",
+            "id": "8d2816bbc8256688",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,227 +20,19 @@
             }
           },
           {
-            "id": "822b60e39c5c7073",
+            "id": "35f07e2bdc84dea0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Registration and affine transformation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cce3384443a85c63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "MRI TYPES.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "410ed61b7d4df983",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Q's.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6de8655e275f9f3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BASH WALKTHROUGH - IXI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3883eb0a22226025",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Preprocessing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "38e3b09c6a50ab6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Masking in mDDPM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1578fff7262170c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fourier transforms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "796bfbe886a2ae75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "proprocessing code and scripts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1a3cb4c8a334b09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "proprocessing code and scripts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7afa928fa581d49e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bias Field Correction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61de74dfa933d4a0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "98e7e644ea1842c6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "fb848a14f14e23b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "segmentation masks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "db4d1db50521f594",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resampling (IXI and MSLUB).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63869c37de59a569",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "voxel size.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35b0fbf4768c61a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d99a19d9ef5159b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Voxel value.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c828d530f8babfc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "take two command-line arguments.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eca6d0f9d32ec776",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "brain masks.md",
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -342,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fourier transforms.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -359,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fourier transforms.md",
+                "file": "Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -382,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fourier transforms.md"
+                "file": "Untitled 1.md"
               }
             }
           }
@@ -403,15 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1578fff7262170c4",
+  "active": "35f07e2bdc84dea0",
   "lastOpenFiles": [
-    "Masking in mDDPM.md",
-    "Fourier transforms.md",
+    "proprocessing code and scripts.md",
+    "Untitled 1.md",
+    "Actual Proprocessing",
     "Preprocessing.md",
     "1_Implimenting.md",
+    "Fourier transforms.md",
+    "Masking in mDDPM.md",
     "BASH WALKTHROUGH - BRATS.md",
     "Bias Field Correction.md",
-    "proprocessing code and scripts.md",
     "preprocess new data.md",
     "Cutting to Brain.md",
     "BASH WALKTHROUGH MSLUB.md",

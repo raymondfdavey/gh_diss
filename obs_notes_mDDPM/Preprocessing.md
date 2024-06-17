@@ -5,9 +5,6 @@ They say:
 We preprocess the data by resampling it to 1.0 mm, skull-stripping with HD-BET, registering it to the SRI Atlas, removing the black boarders, and correcting for N4 bias. 
 
 You must clone and set up the [HD-BET](https://github.com/MIC-DKFZ/HD-BET) tool for skull-stripping in order to conduct the preprocessing.  
-
-The preprocessing is carried out via a separate bash script for each data set in the [preprocessing](https://file+.vscode-resource.vscode-cdn.net/c:/Users/rd81/OneDrive%20-%20University%20of%20Sussex/Desktop/diss_git/mDDPM/preprocessing) directory. Go to the [preprocessing](https://file+.vscode-resource.vscode-cdn.net/c:/Users/rd81/OneDrive%20-%20University%20of%20Sussex/Desktop/diss_git/mDDPM/preprocessing) directory to preprocess the data.
-
 This means
 
 1. Resampling to 1.0 mm:
