@@ -1,14 +1,8 @@
 import os
 
-def rename_files(directory, pref,suff=None):
-    # print(directory)
-    # print(pref)
-    # print(suff)
-    
+def rename_files(directory, pref, suff=None):
     # Get the list of files in the directory
     files = os.listdir(directory)
-
-
 
     # Sort the files alphabetically
     files.sort()
@@ -16,10 +10,11 @@ def rename_files(directory, pref,suff=None):
     # Iterate over the files and rename them
     for index, file in enumerate(files, start=1):
         old_name = os.path.join(directory, file)
+        _, extension = os.path.splitext(file)  # Get the file extension
         if suff != None:
-            new_name = os.path.join(directory, f"{pref}{index}_{suff}")
+            new_name = os.path.join(directory, f"{pref}{index}_{suff}{extension}")
         else:
-            new_name = os.path.join(directory, f"{pref}{index}")
+            new_name = os.path.join(directory, f"{pref}{index}{extension}")
         os.rename(old_name, new_name)
 
     print(f"Renamed {len(files)} files in the directory.")
