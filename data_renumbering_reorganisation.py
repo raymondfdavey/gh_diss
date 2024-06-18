@@ -22,13 +22,12 @@ def rename_files(directory, pref, suff=None):
 # Example usage
 
 paths = [
-# (r'C:\Users\rd81\OneDrive - University of Sussex\Desktop\diss_git\RAW_DATA\SORTED_DATA\renumbered\Brats21\seg', ['Brats', 'seg'])
-# ,(r'C:\Users\rd81\OneDrive - University of Sussex\Desktop\diss_git\RAW_DATA\SORTED_DATA\renumbered\Brats21\t2', ['Brats'] )
-(r'C:\Users\rd81\OneDrive - University of Sussex\Desktop\diss_git\RAW_DATA\SORTED_DATA\renumbered\IXI\t2', ['IXI'])
-,(r'C:\Users\rd81\OneDrive - University of Sussex\Desktop\diss_git\RAW_DATA\SORTED_DATA\renumbered\MSLUB\seg', ['MSLUB', 'seg'])
-,(r'C:\Users\rd81\OneDrive - University of Sussex\Desktop\diss_git\RAW_DATA\SORTED_DATA\renumbered\MSLUB\t2', ['MSLUB'])
+    # (r'C:\Users\rd81\OneDrive - University of Sussex\Desktop\diss_git\RAW_DATA\SORTED_DATA\renumbered\Brats21\seg', ['Brats', 'seg']),
+    # (r'C:\Users\rd81\OneDrive - University of Sussex\Desktop\diss_git\RAW_DATA\SORTED_DATA\renumbered\Brats21\t2', ['Brats']),
+    (r'C:\Users\rd81\OneDrive - University of Sussex\Desktop\diss_git\RAW_DATA\SORTED_DATA\renumbered\IXI\t2', ['IXI']),
+    (r'C:\Users\rd81\OneDrive - University of Sussex\Desktop\diss_git\RAW_DATA\SORTED_DATA\renumbered\MSLUB\seg', ['MSLUB', 'seg']),
+    (r'C:\Users\rd81\OneDrive - University of Sussex\Desktop\diss_git\RAW_DATA\SORTED_DATA\renumbered\MSLUB\t2', ['MSLUB'])
 ]
-
 for path, fixes in paths:
     if len(fixes) != 1:
         prefix, suffix = fixes
