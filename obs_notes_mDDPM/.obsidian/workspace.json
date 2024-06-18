@@ -20,12 +20,48 @@
             }
           },
           {
+            "id": "b4d89df9fc4b667d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resampling (IXI and MSLUB).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2940ba641c476dc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Registration and affine transformation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "09910a5806c7a54d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "brain masks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "35f07e2bdc84dea0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Resampling (IXI and MSLUB).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Resampling (IXI and MSLUB).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Resampling (IXI and MSLUB).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "Resampling (IXI and MSLUB).md"
               }
             }
           }
@@ -159,9 +195,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35f07e2bdc84dea0",
+  "active": "b4d89df9fc4b667d",
   "lastOpenFiles": [
     "proprocessing code and scripts.md",
+    "Resampling (IXI and MSLUB).md",
+    "MRI TYPES.md",
+    "brain masks.md",
+    "Cutting to Brain.md",
+    "Registration and affine transformation.md",
     "Untitled 1.md",
     "Actual Proprocessing",
     "Preprocessing.md",
@@ -171,15 +212,10 @@
     "BASH WALKTHROUGH - BRATS.md",
     "Bias Field Correction.md",
     "preprocess new data.md",
-    "Cutting to Brain.md",
     "BASH WALKTHROUGH MSLUB.md",
     "BASH WALKTHROUGH - IXI.md",
     "Q's.md",
-    "MRI TYPES.md",
-    "Registration and affine transformation.md",
-    "Resampling (IXI and MSLUB).md",
     "segmentation masks.md",
-    "brain masks.md",
     "take two command-line arguments.md",
     "Voxel value.md",
     "Untitled.md",
