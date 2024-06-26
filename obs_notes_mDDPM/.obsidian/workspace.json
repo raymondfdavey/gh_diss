@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "eac635d9e8a898df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROCESSING FILE SUMMARIES.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b4d89df9fc4b667d",
             "type": "leaf",
             "state": {
@@ -80,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c0f0afe5b9c15580",
@@ -146,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EXPLORATORY FINDINGS.md",
+                "file": "PROCESSING FILE SUMMARIES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EXPLORATORY FINDINGS.md",
+                "file": "PROCESSING FILE SUMMARIES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EXPLORATORY FINDINGS.md"
+                "file": "PROCESSING FILE SUMMARIES.md"
               }
             }
           }
@@ -207,10 +220,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "56bb85332ff9e597",
+  "active": "3369acc704388033",
   "lastOpenFiles": [
-    "proprocessing code and scripts.md",
     "EXPLORATORY FINDINGS.md",
+    "PROCESSING FILE SUMMARIES.md",
+    "proprocessing code and scripts.md",
     "Resampling (IXI and MSLUB).md",
     "Preprocessing-cs32a026487.md",
     "MRI TYPES.md",
