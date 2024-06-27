@@ -181,90 +181,113 @@ Final output:
 ```
 
 This original script follows a similar structure to the IXI and MSLUB scripts, including steps for resampling and skull-stripping that are not necessary for the pre-processed BraTS21 data. This is why the revised version was created to skip these unnecessary steps and start from the registration process.
-
-Certainly! Here are plain text summaries of each Python script used in the preprocessing process:
+Certainly! I'll provide more detailed summaries of each Python script with added specifics:
 
 1. resample.py:
-
 ```
 Purpose: Resamples 3D volumes in NIfTI format to a specified resolution.
 Input: Directory with NIfTI images
 Output: Directory with resampled NIfTI images
 Key operations:
-- Reads each image
-- Resamples to specified resolution (default 1.0 x 1.0 x 1.0 mm)
-- Reorients image to specified orientation (default RAI)
-- Saves resampled image
+- Reads each image using ANTs (antspynet library)
+- Resamples to specified resolution (default 1.0 x 1.0 x 1.0 mm) using ants.resample_image()
+- Reorients image to RAI (Right-Anterior-Inferior) orientation using ants.reorient_image2()
+- Saves resampled image using ants.image_write()
+Additional details:
+- Uses argparse for command-line argument parsing
+- Allows specification of interpolation method (default is 4, which is B-spline interpolation in ANTs)
 ```
 
 2. extract_masks.py:
-
 ```
 Purpose: Extracts mask files from a directory of skull-stripped images.
 Input: Directory with skull-stripped NIfTI images
 Output: Directory with extracted mask NIfTI images
 Key operations:
 - Identifies files ending with '_mask.nii.gz' or '_mask.nii'
-- Moves these files to the output directory
+- Moves these files to the output directory using os.rename()
+Additional details:
+- Uses argparse for command-line argument parsing
+- Creates output directory if it doesn't exist using Path().mkdir()
 ```
 
 3. replace.py:
-
 ```
 Purpose: Replaces a specified string in filenames of NIfTI images.
 Input: Directory with NIfTI images, strings to replace
 Output: Same directory with renamed files
 Key operations:
-- Renames files by replacing specified string in filenames
+- Renames files by replacing specified string in filenames using os.rename()
+Additional details:
+- Uses argparse for command-line argument parsing
+- Works on .nii.gz and .nii file extensions
 ```
 
 4. registration.py:
-
+5. 
 ```
-Purpose: Registers 3D volumes to a specified template.
-Input: Directory with NIfTI images, template image
+Purpose: Registers 3D volumes to the SRI24 atlas template.
+Input: Directory with NIfTI images, path to SRI24 atlas template
 Output: Directory with registered NIfTI images
 Key operations:
-- Reads each image and the template
-- Performs registration (default: Rigid transformation)
-- Applies transformation to image, mask, and segmentation (if available)
-- Saves registered images
+- Reads each input image using ants.image_read()
+- Reads the SRI24 atlas template (T1_brain.nii) using ants.image_read()
+- Reorients the template to RAI orientation using ants.reorient_image2('RAI')
+- Performs registration using ants.registration() (default: Affine transformation) to the SRI24 template
+- Applies transformation to image, mask, and segmentation (if available) using ants.apply_transforms()
+- Saves registered images using ants.image_write()
+Additional details:
+- Uses argparse for command-line argument parsing
+- Allows specification of transformation type (e.g., 'Rigid', 'Affine')
+- Handles multiple modalities (t1, t2, FLAIR, etc.)
+- The SRI24 atlas is used as a standard space for aligning all images
+- Template path is specified as a required argument: '-templ', '--template'
 ```
 
 5. cut.py:
-
 ```
 Purpose: Cuts 3D volumes to remove empty space around the brain.
 Input: Directories with NIfTI images and corresponding masks
 Output: Directories with cut NIfTI images, masks, and segmentations
 Key operations:
-- Identifies non-zero regions in mask
-- Cuts original image, mask, and segmentation to this region
-- Saves cut images
+- Identifies non-zero regions in mask using numpy operations (first_nonzero, last_nonzero)
+- Cuts original image, mask, and segmentation to this region using array slicing
+- Saves cut images using nibabel's nib.save()
+Additional details:
+- Uses argparse for command-line argument parsing
+- Handles multiple modalities
+- Uses nibabel for NIfTI file operations
 ```
 
 6. n4filter.py:
-
 ```
 Purpose: Applies N4 bias field correction to 3D volumes.
 Input: Directory with NIfTI images, optional mask directory
 Output: Directory with bias-corrected NIfTI images
 Key operations:
-- Reads each image and corresponding mask (if available)
-- Applies N4 bias field correction
-- Saves corrected image
+- Reads each image and corresponding mask (if available) using ants.image_read()
+- Applies N4 bias field correction using ants.n4_bias_field_correction()
+- Saves corrected image using ants.image_write()
+Additional details:
+- Uses argparse for command-line argument parsing
+- Allows specification of N4 correction parameters (iterations, convergence tolerance)
+- Optionally uses a smoothed mask for better correction
 ```
 
 7. get_mask.py:
-
 ```
 Purpose: Creates binary masks for 3D volumes.
 Input: Directory with NIfTI images
 Output: Directory with binary mask NIfTI images
 Key operations:
-- Reads each image
-- Creates a binary mask
-- Saves mask image
+- Reads each image using ants.image_read()
+- Creates a binary mask using ants.get_mask()
+- Saves mask image using ants.image_write()
+Additional details:
+- Uses argparse for command-line argument parsing
+- Handles different modalities by adjusting output filename
+
+it is basically retrospectively creating a binary mask from the already deskulled images by making every 0 voxel a mask voxel
 ```
 
-These scripts are called at various stages in the shell scripts to perform specific preprocessing tasks on the neuroimaging data. They work together to transform the raw input data into a standardized format suitable for further analysis or model training.
+These scripts utilize various libraries such as ANTs (via antspynet), nibabel, and numpy to perform specific preprocessing tasks on neuroimaging data. They work together in the shell scripts to transform the raw input data into a standardized format suitable for further analysis or model training.
