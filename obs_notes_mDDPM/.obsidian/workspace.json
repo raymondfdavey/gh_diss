@@ -25,7 +25,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RUNNING NOTES.md",
+                "file": "running notes 1.7.24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84b80c378d79149c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "running notes 1.7.24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6815526c72a09e1c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "running notes 1.7.24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4e672221a85e9c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NO CONDA.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -180,7 +216,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RUNNING NOTES.md",
+                "file": "running notes 1.7.24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +233,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RUNNING NOTES.md",
+                "file": "running notes 1.7.24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +256,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RUNNING NOTES.md"
+                "file": "running notes 1.7.24.md"
               }
             }
           }
@@ -241,11 +277,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e63b6d179a82476",
+  "active": "6815526c72a09e1c",
   "lastOpenFiles": [
+    "NO CONDA.md",
+    "running notes 1.7.24.md",
+    "t1-t2 mismatch.md",
+    "pythorch lightening.md",
+    "Hydra.md",
+    "run_mDDPM.py.md",
+    "RUNNING NOTES 27.06.24.md",
     "PROCESSING FILE SUMMARIES.md",
     "test time augmentation.md",
-    "RUNNING NOTES.md",
     "proprocessing code and scripts.md",
     "img_dimensions.jpg",
     "Resampling (IXI and MSLUB).md",
@@ -264,12 +306,6 @@
     "BASH WALKTHROUGH - BRATS.md",
     "Bias Field Correction.md",
     "preprocess new data.md",
-    "BASH WALKTHROUGH MSLUB.md",
-    "BASH WALKTHROUGH - IXI.md",
-    "Q's.md",
-    "segmentation masks.md",
-    "take two command-line arguments.md",
-    "Voxel value.md",
-    "Untitled.md"
+    "BASH WALKTHROUGH MSLUB.md"
   ]
 }
