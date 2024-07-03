@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROCESSING FILE SUMMARIES.md",
+                "file": "preprocessing/PROCESSING FILE SUMMARIES.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "running notes 1.7.24.md",
+                "file": "running_notes/running notes 1.7.24.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "running notes 1.7.24.md",
+                "file": "running_notes/running notes 1.7.24.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "running notes 1.7.24.md",
+                "file": "1_Implimenting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6db5dcd5b4111c5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "running_notes/rn 2.7.24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b83cf625292c8a1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rn 3.7.24.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NO CONDA.md",
+                "file": "training_model/NO CONDA.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROCESSING FILE SUMMARIES.md",
+                "file": "preprocessing/PROCESSING FILE SUMMARIES.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EXPLORATORY FINDINGS.md",
+                "file": "preprocessing/EXPLORATORY FINDINGS.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +121,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "img_dimensions.jpg"
+                "file": "preprocessing/img_dimensions.jpg"
               }
             }
           },
@@ -107,7 +131,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resampling (IXI and MSLUB).md",
+                "file": "preprocessing/Resampling (IXI and MSLUB).md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +143,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Registration and affine transformation.md",
+                "file": "preprocessing/Registration and affine transformation.md",
                 "mode": "source",
                 "source": false
               }
@@ -131,7 +155,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "brain masks.md",
+                "file": "preprocessing/brain masks.md",
                 "mode": "source",
                 "source": false
               }
@@ -143,14 +167,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resampling (IXI and MSLUB).md",
+                "file": "preprocessing/Resampling (IXI and MSLUB).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -216,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "running notes 1.7.24.md",
+                "file": "rn 3.7.24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "running notes 1.7.24.md",
+                "file": "rn 3.7.24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "running notes 1.7.24.md"
+                "file": "rn 3.7.24.md"
               }
             }
           }
@@ -277,35 +301,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6815526c72a09e1c",
+  "active": "b83cf625292c8a1a",
   "lastOpenFiles": [
-    "NO CONDA.md",
-    "running notes 1.7.24.md",
-    "t1-t2 mismatch.md",
-    "pythorch lightening.md",
-    "Hydra.md",
-    "run_mDDPM.py.md",
-    "RUNNING NOTES 27.06.24.md",
-    "PROCESSING FILE SUMMARIES.md",
-    "test time augmentation.md",
-    "proprocessing code and scripts.md",
-    "img_dimensions.jpg",
-    "Resampling (IXI and MSLUB).md",
-    "EXPLORATORY FINDINGS.md",
-    "Preprocessing-cs32a026487.md",
-    "MRI TYPES.md",
-    "brain masks.md",
-    "Cutting to Brain.md",
-    "Registration and affine transformation.md",
-    "Untitled 1.md",
-    "Actual Proprocessing",
-    "Preprocessing.md",
+    "running_notes/rn 2.7.24.md",
+    "rn 3.7.24.md",
+    "preprocessing/img_dimensions.jpg",
     "1_Implimenting.md",
-    "Fourier transforms.md",
-    "Masking in mDDPM.md",
-    "BASH WALKTHROUGH - BRATS.md",
-    "Bias Field Correction.md",
-    "preprocess new data.md",
-    "BASH WALKTHROUGH MSLUB.md"
+    "pytorch_lightening_learning",
+    "preprocessing/Preprocessing.md",
+    "preprocessing/Getting and reorganising data.md",
+    "preprocessing/voxel size.md",
+    "preprocessing/Registration and affine transformation.md",
+    "Untitled 1.md",
+    "Q's.md",
+    "training_model/NO CONDA.md",
+    "training_model/Masking in mDDPM.md",
+    "preprocessing/EXPLORATORY FINDINGS.md",
+    "training_model",
+    "running_notes/running notes 1.7.24.md",
+    "preprocessing",
+    "running_notes",
+    "t1-t2 mismatch.md",
+    "training_model/pythorch lightening.md",
+    "training_model/Hydra.md",
+    "training_model/run_mDDPM.py.md",
+    "running_notes/RUNNING NOTES 27.06.24.md",
+    "preprocessing/PROCESSING FILE SUMMARIES.md",
+    "preprocessing/test time augmentation.md",
+    "preprocessing/proprocessing code and scripts.md",
+    "preprocessing/Resampling (IXI and MSLUB).md",
+    "preprocessing/Preprocessing-cs32a026487.md",
+    "MRI TYPES.md",
+    "preprocessing/brain masks.md",
+    "preprocessing/Cutting to Brain.md",
+    "Actual Proprocessing"
   ]
 }
