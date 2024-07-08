@@ -25,7 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RUNNING NOTES.md",
+                "file": "running notes 1.7.24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "84b80c378d79149c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "running notes 1.7.24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4e672221a85e9c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NO CONDA.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +138,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c0f0afe5b9c15580",
@@ -180,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RUNNING NOTES.md",
+                "file": "NO CONDA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RUNNING NOTES.md",
+                "file": "NO CONDA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RUNNING NOTES.md"
+                "file": "NO CONDA.md"
               }
             }
           }
@@ -241,11 +266,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e63b6d179a82476",
+  "active": "a4e672221a85e9c6",
   "lastOpenFiles": [
+    "running notes 1.7.24.md",
+    "NO CONDA.md",
+    "RUNNING NOTES 27.06.24.md",
     "PROCESSING FILE SUMMARIES.md",
     "test time augmentation.md",
-    "RUNNING NOTES.md",
     "proprocessing code and scripts.md",
     "img_dimensions.jpg",
     "Resampling (IXI and MSLUB).md",
@@ -268,8 +295,6 @@
     "BASH WALKTHROUGH - IXI.md",
     "Q's.md",
     "segmentation masks.md",
-    "take two command-line arguments.md",
-    "Voxel value.md",
-    "Untitled.md"
+    "take two command-line arguments.md"
   ]
 }
