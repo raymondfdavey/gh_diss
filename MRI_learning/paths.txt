@@ -1,0 +1,12 @@
+/Users/rd81/MRI_DATA/PRODUCTION/FINAL/Train/IXI/mask
+/Users/rd81/MRI_DATA/PRODUCTION/FINAL/Train/IXI/t2
+
+/Users/rd81/MRI_DATA/PRODUCTION/FINAL/Test/Brats21/t2
+/Users/rd81/MRI_DATA/PRODUCTION/FINAL/Test/Brats21/mask
+/Users/rd81/MRI_DATA/PRODUCTION/FINAL/Test/Brats21/seg
+
+/Users/rd81/MRI_DATA/PRODUCTION/FINAL/Test/MSLUB/mask
+/Users/rd81/MRI_DATA/PRODUCTION/FINAL/Test/MSLUB/seg
+/Users/rd81/MRI_DATA/PRODUCTION/FINAL/Test/MSLUB/t2
+
+Sorry to be clear. I wish the functions to work as before with the interaction through the layers of a single mri image to be done using the normal functionality. However when spacebar is hit I want an entirely new image to be displayed with the functionality as before of using the mouse to naviagte through layers. 
