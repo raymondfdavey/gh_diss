@@ -11,36 +11,24 @@
             "id": "8d2816bbc8256688",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PROCESSING FILE SUMMARIES.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "6e63b6d179a82476",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "running notes 1.7.24.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "84b80c378d79149c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "running notes 1.7.24.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -49,7 +37,101 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NO CONDA.md",
+                "file": "training_model/old/Fourier transforms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb210993d93d018e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "training_model/overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e8087867101f9f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "training_model/overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a0d37b24949a36e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "training_model/overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c78a3bb7e72c40de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "training_model/overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8c889504bb45d442",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "training_model/overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d849709397727f56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "training_model/overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28c44b3321251550",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
+          },
+          {
+            "id": "6a8f6f6ddba4c8e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rn 9.7.24.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,86 +141,60 @@
             "id": "5b385ec1eaf85235",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PROCESSING FILE SUMMARIES.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "56bb85332ff9e597",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "EXPLORATORY FINDINGS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "eac635d9e8a898df",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "img_dimensions.jpg"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "b4d89df9fc4b667d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resampling (IXI and MSLUB).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "2940ba641c476dc6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Registration and affine transformation.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "09910a5806c7a54d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "brain masks.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
             "id": "35f07e2bdc84dea0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resampling (IXI and MSLUB).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -188,8 +244,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c0f0afe5b9c15580",
@@ -205,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NO CONDA.md",
+                "file": "rn 9.7.24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NO CONDA.md",
+                "file": "rn 9.7.24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NO CONDA.md"
+                "file": "rn 9.7.24.md"
               }
             }
           }
@@ -266,8 +321,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4e672221a85e9c6",
+  "active": "6a8f6f6ddba4c8e8",
   "lastOpenFiles": [
+    "rn 9.7.24.md",
+    "evaluation.md",
+    "training_model/overview.md",
+    "Training.md",
+    "A PyTorch Lightning Trainer is set up.md",
+    "The model is instantiated.md",
+    "A datamodule is instantiated.md",
+    "training_model/Hydra.md",
+    "training_model/old/Fourier transforms.md",
+    "training_model/old/run_mDDPM.py.md",
+    "training_model/old",
     "running notes 1.7.24.md",
     "NO CONDA.md",
     "RUNNING NOTES 27.06.24.md",
@@ -285,16 +351,6 @@
     "Untitled 1.md",
     "Actual Proprocessing",
     "Preprocessing.md",
-    "1_Implimenting.md",
-    "Fourier transforms.md",
-    "Masking in mDDPM.md",
-    "BASH WALKTHROUGH - BRATS.md",
-    "Bias Field Correction.md",
-    "preprocess new data.md",
-    "BASH WALKTHROUGH MSLUB.md",
-    "BASH WALKTHROUGH - IXI.md",
-    "Q's.md",
-    "segmentation masks.md",
-    "take two command-line arguments.md"
+    "1_Implimenting.md"
   ]
 }
