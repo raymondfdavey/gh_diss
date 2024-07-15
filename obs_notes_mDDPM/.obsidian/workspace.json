@@ -4,197 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "00304b8d0d9ba019",
+        "id": "301ad366756f7bdb",
         "type": "tabs",
         "children": [
           {
-            "id": "8d2816bbc8256688",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "6e63b6d179a82476",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "84b80c378d79149c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a4e672221a85e9c6",
+            "id": "5f82b46237a924d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "training_model/old/Fourier transforms.md",
+                "file": "training_model/Training.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fb210993d93d018e",
+            "id": "8bdf3a6b6af3f2a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "training_model/overview.md",
+                "file": "Anomaly Maps.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3e8087867101f9f6",
+            "id": "45a036f83af41156",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "training_model/overview.md",
+                "file": "SAVING anomaly maps.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7a0d37b24949a36e",
+            "id": "2d59734690a801a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "training_model/overview.md",
+                "file": "loading models.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c78a3bb7e72c40de",
+            "id": "27b8a6490b259ab3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "training_model/overview.md",
+                "file": "training_model/Training.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "8c889504bb45d442",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "training_model/overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d849709397727f56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "training_model/overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28c44b3321251550",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.5"
-              }
-            }
-          },
-          {
-            "id": "6a8f6f6ddba4c8e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rn 9.7.24.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5b385ec1eaf85235",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "56bb85332ff9e597",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "eac635d9e8a898df",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b4d89df9fc4b667d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "2940ba641c476dc6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "09910a5806c7a54d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "35f07e2bdc84dea0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -244,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 239.5
   },
   "right": {
     "id": "c0f0afe5b9c15580",
@@ -260,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rn 9.7.24.md",
+                "file": "loading models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -277,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rn 9.7.24.md",
+                "file": "loading models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -300,15 +174,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rn 9.7.24.md"
+                "file": "loading models.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -321,36 +196,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6a8f6f6ddba4c8e8",
+  "active": "2d59734690a801a7",
   "lastOpenFiles": [
-    "rn 9.7.24.md",
+    "SAVING anomaly maps.md",
+    "loading models.md",
+    "Anomaly Maps.md",
     "evaluation.md",
-    "training_model/overview.md",
-    "Training.md",
-    "A PyTorch Lightning Trainer is set up.md",
-    "The model is instantiated.md",
-    "A datamodule is instantiated.md",
+    "training_model/Training.md",
+    "1_Implimenting.md",
+    "running_notes/RN 15.7.24.md",
+    "training_model/A datamodule is instantiated.md",
+    "training_model/The model is instantiated.md",
+    "Q's.md",
+    "MRI TYPES.md",
+    "training_model/A PyTorch Lightning Trainer is set up.md",
     "training_model/Hydra.md",
+    "training_model/training.md",
+    "t1-t2 mismatch.md",
+    "Untitled 1.md",
+    "running_notes/rn 10.07.2024.md",
+    "running_notes/rn 9.7.24.md",
+    "running_notes/RUNNING NOTES 27.06.24.md",
+    "running_notes/running notes 1.7.24.md",
+    "running_notes/rn 2.7.24.md",
     "training_model/old/Fourier transforms.md",
     "training_model/old/run_mDDPM.py.md",
     "training_model/old",
     "running notes 1.7.24.md",
     "NO CONDA.md",
     "RUNNING NOTES 27.06.24.md",
-    "PROCESSING FILE SUMMARIES.md",
-    "test time augmentation.md",
-    "proprocessing code and scripts.md",
     "img_dimensions.jpg",
-    "Resampling (IXI and MSLUB).md",
-    "EXPLORATORY FINDINGS.md",
-    "Preprocessing-cs32a026487.md",
-    "MRI TYPES.md",
-    "brain masks.md",
-    "Cutting to Brain.md",
-    "Registration and affine transformation.md",
-    "Untitled 1.md",
-    "Actual Proprocessing",
-    "Preprocessing.md",
-    "1_Implimenting.md"
+    "Actual Proprocessing"
   ]
 }
