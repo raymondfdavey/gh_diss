@@ -49,26 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "loading models.md",
+                "file": "running_notes/RUNNING NOTES 27.06.24.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "27b8a6490b259ab3",
+            "id": "ab55db457a623b04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "training_model/Training.md",
+                "file": "rn 16.07.2024.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "loading models.md",
+                "file": "rn 16.07.2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "loading models.md",
+                "file": "rn 16.07.2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "loading models.md"
+                "file": "rn 16.07.2024.md"
               }
             }
           }
@@ -196,13 +196,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d59734690a801a7",
+  "active": "ab55db457a623b04",
   "lastOpenFiles": [
-    "SAVING anomaly maps.md",
+    "training_model/Training.md",
+    "rn 16.07.2024.md",
+    "running_notes/RUNNING NOTES 27.06.24.md",
     "loading models.md",
+    "SAVING anomaly maps.md",
     "Anomaly Maps.md",
     "evaluation.md",
-    "training_model/Training.md",
     "1_Implimenting.md",
     "running_notes/RN 15.7.24.md",
     "training_model/A datamodule is instantiated.md",
@@ -216,7 +218,6 @@
     "Untitled 1.md",
     "running_notes/rn 10.07.2024.md",
     "running_notes/rn 9.7.24.md",
-    "running_notes/RUNNING NOTES 27.06.24.md",
     "running_notes/running notes 1.7.24.md",
     "running_notes/rn 2.7.24.md",
     "training_model/old/Fourier transforms.md",
@@ -224,7 +225,6 @@
     "training_model/old",
     "running notes 1.7.24.md",
     "NO CONDA.md",
-    "RUNNING NOTES 27.06.24.md",
     "img_dimensions.jpg",
     "Actual Proprocessing"
   ]
